@@ -1,13 +1,15 @@
-{% assign wir-heiraten = site.data.data.wir-heiraten %}
-{% if wir-heiraten %}
+{% assign timeline = site.data.data.timeline %}
+{% if timeline %}
 <section class="section summary-section">
 
   <h2 class="section-title">
-    {{ wir-heiraten.title }}
+    {{ timeline.title }}
   </h2>
 
   <div class="summary">
-    {{ wir-heiraten.paragraph | markdownify }}
+    {% for time in timeline.times %}
+      <div>{{ time }}</div>
+    {% endfor %}
   </div><!--//summary-->
     
 </section><!--//section-->

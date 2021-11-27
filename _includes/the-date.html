@@ -1,13 +1,13 @@
-{% assign wir-heiraten = site.data.data.wir-heiraten %}
-{% if wir-heiraten %}
+{% assign the-date = site.data.data.the-date %}
+{% if the-date %}
 <section class="section summary-section">
 
   <h2 class="section-title">
-    {{ wir-heiraten.title }}
+    {{ the-date.title }}
   </h2>
 
   <div class="summary">
-    {{ wir-heiraten.paragraph | markdownify }}
+    {{ the-date.paragraph | markdownify }}
   </div><!--//summary-->
     
 </section><!--//section-->

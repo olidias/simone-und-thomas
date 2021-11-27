@@ -1,0 +1,20 @@
+{% assign the-location = site.data.data.the-location %}
+{% if the-location %}
+<section class="section summary-section">
+
+  <h2 class="section-title">
+    {{ the-location.title }}
+  </h2>
+
+  <div class="summary">
+    <div>
+      {{ the-location.paragraph | markdownify }}
+  </div>
+  <div id="address">
+      {{ the-location.address | markdownify }}
+  </div>
+    <a href="{{ the-location.link }}">Wegbeschreibung</a>
+  </div><!--//summary-->
+    
+</section><!--//section-->
+{% endif %}

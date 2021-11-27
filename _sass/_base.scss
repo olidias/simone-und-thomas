@@ -9,9 +9,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6  {
-}
-
 @font-face {
     font-family: alexBrush;
     src: url('../fonts/AlexBrush-Regular.ttf');
@@ -46,15 +43,14 @@ p {
 }
 
 .wrapper {
-    background:$theme-color;
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
-    @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
 }
 
 .main-wrapper {
     section{
+        @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
         background: #fff;
         padding: 60px;
     }
@@ -70,95 +66,7 @@ p {
     .section {
         margin-bottom: 60px;
     }
-
-    .experiences-section, .educations-section {
-        .item {
-            margin-bottom: 30px;
-        }
-    }
-    .upper-row {
-        position: relative;
-        overflow: hidden;
-        margin-bottom: 2px;
-    }
-    .job-title, .degree {
-        color: $text-color;
-        font-size: 16px;
-        margin-top: 0;
-        margin-bottom: 0;
-        font-weight: 500;
-    }
-    .time {
-        position: absolute;
-        right: 0;
-        top: 0;
-        color: $text-grey;
-    }
-    .company, .university {
-        margin-bottom: 10px;
-        color: $text-grey;
-    }
-
-    .project-title {
-        font-size: 16px;
-        font-weight: 400;
-        margin-top: 0;
-        margin-bottom: 5px;
-	color: darken($theme-color, 15%);
-    }
-    .projects-section {
-        .intro {
-            margin-bottom: 30px;
-        }
-        .item {
-            margin-bottom: 15px;
-        }
-    }
-
-    .publication-title {
-        font-size: 16px;
-        font-weight: 400;
-        color: $text-color;
-        margin-bottom: 1px;
-    }
-    .publication-authors {
-        font-style: italic;
-        color: $text-grey;
-        margin-bottom: 1px;
-    }
-    .publications-section {
-        .intro {
-            margin-bottom: 30px;
-        }
-        .item {
-            margin-bottom: 15px;
-        }
-    }
 }
-
-
-.skillset {
-    .item {
-        margin-bottom: 15px;
-        overflow: hidden;
-    }
-    .level-title {
-        font-size: 14px;
-        margin-top: 0;
-        margin-bottom: 12px;
-    }
-    .level-bar {
-        height: 12px;
-        background: $smoky-white;
-    }
-    .level-bar-inner {
-        height: 12px;
-        background: lighten($theme-color, 15%);
-    }
-}
-
-
-
 
 .footer {
     padding-top: 30px;

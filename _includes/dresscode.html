@@ -1,13 +1,13 @@
-{% assign wir-heiraten = site.data.data.wir-heiraten %}
-{% if wir-heiraten %}
+{% assign dresscode = site.data.data.dresscode %}
+{% if dresscode %}
 <section class="section summary-section">
 
   <h2 class="section-title">
-    {{ wir-heiraten.title }}
+    {{ dresscode.title }}
   </h2>
 
   <div class="summary">
-    {{ wir-heiraten.paragraph | markdownify }}
+    {{ dresscode.paragraph }}
   </div><!--//summary-->
     
 </section><!--//section-->
