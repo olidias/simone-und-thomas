@@ -1,16 +1,19 @@
 {% assign timeline = site.data.data.timeline %}
 {% if timeline %}
 <section class="section summary-section">
+  <div class="section-left"></div>
+  <div class="section-right">
+    <h2 class="section-title">
+      {{ timeline.title }}
+    </h2>
 
-  <h2 class="section-title">
-    {{ timeline.title }}
-  </h2>
-
-  <div class="summary">
-    {% for time in timeline.times %}
+    <div class="summary">
+      {% for time in timeline.times %}
       <div>{{ time }}</div>
-    {% endfor %}
-  </div><!--//summary-->
-    
-</section><!--//section-->
+      {% endfor %}
+    </div>
+    <!--//summary-->
+  </div>
+</section>
+<!--//section-->
 {% endif %}

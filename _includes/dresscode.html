@@ -1,14 +1,17 @@
 {% assign dresscode = site.data.data.dresscode %}
 {% if dresscode %}
 <section class="section summary-section">
+  <div class="section-left"></div>
+  <div class="section-right">
+    <h2 class="section-title">
+      {{ dresscode.title }}
+    </h2>
 
-  <h2 class="section-title">
-    {{ dresscode.title }}
-  </h2>
-
-  <div class="summary">
-    {{ dresscode.paragraph }}
-  </div><!--//summary-->
-    
-</section><!--//section-->
+    <div class="summary">
+      {{ dresscode.paragraph }}
+    </div>
+    <!--//summary-->
+  </div>
+</section>
+<!--//section-->
 {% endif %}

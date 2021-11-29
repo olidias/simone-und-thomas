@@ -1,14 +1,19 @@
 {% assign the-date = site.data.data.the-date %}
 {% if the-date %}
 <section class="section summary-section">
+  <div class="section-left">
 
-  <h2 class="section-title">
-    {{ the-date.title }}
-  </h2>
+  </div>
+  <div class="section-right">
+    <h2 class="section-title">
+      {{ the-date.title }}
+    </h2>
 
-  <div class="summary">
-    {{ the-date.paragraph | markdownify }}
-  </div><!--//summary-->
-    
-</section><!--//section-->
+    <div class="summary">
+      {{ the-date.paragraph | markdownify }}
+    </div>
+    <!--//summary-->
+  </div>
+</section>
+<!--//section-->
 {% endif %}

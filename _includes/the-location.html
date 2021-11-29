@@ -1,7 +1,7 @@
 {% assign the-location = site.data.data.the-location %}
 {% if the-location %}
 <section class="section summary-section">
-
+<div class="section-left">
   <h2 class="section-title">
     {{ the-location.title }}
   </h2>
@@ -15,6 +15,7 @@
   </div>
     <a href="{{ the-location.link }}">Wegbeschreibung</a>
   </div><!--//summary-->
-    
+</div>
+<div class="section-right"></div>
 </section><!--//section-->
 {% endif %}

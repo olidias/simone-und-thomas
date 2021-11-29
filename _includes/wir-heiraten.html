@@ -2,13 +2,20 @@
 {% if wir-heiraten %}
 <section class="section summary-section">
 
-  <h2 class="section-title">
-    {{ wir-heiraten.title }}
-  </h2>
+  <div class="section-left">
+    <h2 class="section-title">
+      {{ wir-heiraten.title }}
+    </h2>
 
-  <div class="summary">
-    {{ wir-heiraten.paragraph | markdownify }}
-  </div><!--//summary-->
-    
-</section><!--//section-->
+    <div class="summary">
+      {{ wir-heiraten.paragraph | markdownify }}
+    </div>
+    <!--//summary-->
+  </div>
+
+  <div class="section-right" id="wir-heiraten">
+    <!-- <img src="../assets/images/wir-heiraten.JPG"  /> -->
+  </div>
+</section>
+<!--//section-->
 {% endif %}

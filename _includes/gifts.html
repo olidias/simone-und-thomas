@@ -1,18 +1,21 @@
 {% assign gifts = site.data.data.gifts %}
 {% if gifts %}
 <section class="section summary-section">
+  <div class="section-left">
+    <h2 class="section-title">
+      {{ gifts.title }}
+    </h2>
 
-  <h2 class="section-title">
-    {{ gifts.title }}
-  </h2>
+    <h4 class="section-subtitle">
+      {{ gifts.subtitle }}
+    </h4>
 
-  <h4 class="section-subtitle">
-    {{ gifts.subtitle }}
-  </h4>
-
-  <div class="summary">
-    {{ gifts.paragraph }}
-  </div><!--//summary-->
-    
-</section><!--//section-->
+    <div class="summary">
+      {{ gifts.paragraph }}
+    </div>
+    <!--//summary-->
+  </div>
+  <div class="section-right"></div>
+</section>
+<!--//section-->
 {% endif %}
