@@ -13,13 +13,23 @@
         margin-bottom: 0;
     }
     
-    .main-wrapper section {
+    .main-wrapper .section {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 406px;
+        margin: 40px 20px;
+    }
+
+    .main-wrapper section:nth-of-type(2n){
+        flex-direction: column-reverse;
     }
 
     .main-wrapper #wir-heiraten{
         margin: 0;
     }
+
 }
 
 /* Small devices (tablets, 768px and up) */
