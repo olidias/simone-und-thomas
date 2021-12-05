@@ -1,7 +1,7 @@
 {% assign the-date = site.data.data.the-date %}
 {% if the-date %}
 <section class="section summary-section">
-  <div class="section-left">
+  <div class="section-left sideimage" id="date">
 
   </div>
   <div class="section-right">
@@ -11,6 +11,10 @@
 
     <div class="summary">
       {{ the-date.paragraph | markdownify }}
+
+      <div>
+        <small>Foto: <a href="https://www.instagram.com/jrenestuder/">Jrène Studer Photography</a></small>
+      </div>
     </div>
     <!--//summary-->
   </div>

@@ -24,7 +24,7 @@ body {
     src: url('../fonts/AlegreyaSansSC-Light.ttf');
 }
 
-#intro{
+#intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,6 +76,7 @@ p {
         border-radius: 5px;
         background: #fff;
         margin-bottom: 60px;
+        min-height: 280px;
     }
     .section-title {
         text-transform: uppercase;
@@ -91,14 +92,34 @@ p {
         width: 50%;
     }
 
-    #wir-heiraten {
-        min-height: 50px;
-        min-width: 50px;
+    .sideimage {
         margin: 0px;
-        background-image: url("../images/wir-heiraten.JPG");
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 50% 50%;   
+    }
+    
+    #wir-heiraten {
+        background-image: url('../images/wir-heiraten.JPG');
+    }
+    
+    #date {
+        background-image: url('../images/eberg2.png');
+    }
+
+    #timeline {
+        background-image: url('../images/pocket-watch.png');
+    }
+
+    #location {
+        background-image: url('../images/eberg.png');
+    }
+
+    #gift {
+        background-image: url('../images/gift.png');
+    }
+
+    #dresscode {
+        background-image: url('../images/dress-code.png');
     }
 }
 

@@ -1,7 +1,7 @@
 {% assign the-location = site.data.data.the-location %}
 {% if the-location %}
 <section class="section summary-section">
-  <div class="section-left">
+  <div class="section-left sideimage" id="location">
 
   </div>
   <div class="section-right">
@@ -17,6 +17,10 @@
         {{ the-location.address | markdownify }}
       </div>
       <a href="{{ the-location.link }}">Wegbeschreibung</a>
+
+      <div>
+        <small>Foto: <a href="https://www.zweidimensional.ch/">zweidimensional</a> Hochzeitsfotografie</small>
+      </div>
     </div>
     <!--//summary-->
   </div>
