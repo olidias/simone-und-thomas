@@ -33,15 +33,6 @@ body {
     background-repeat: no-repeat;
 }
 
-#lower-flowers {
-    margin-top: 0;
-    min-height: 175px;
-    min-width: 300px;
-    background-image: url("../images/lower-flowers.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 #intro {
     display: flex;
     flex-direction: column;
@@ -198,19 +189,6 @@ p {
 .photo-ref {
     margin-top: 6em;
     font-size: 0.75em;
-}
-
-.footer {
-    padding-top: 30px;
-    .copyright {
-        line-height: 1.6;
-        color: $text-color-secondary;
-        font-size: 13px;
-    }
-
-    .fa-heart {
-        color: $heart;
-    }
 }
 
 @keyframes carousel {
