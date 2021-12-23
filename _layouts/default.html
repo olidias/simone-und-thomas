@@ -4,28 +4,33 @@
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
 {% include head.html %}
 
 <body>
 
   <div id="intro">
     <div id="upper-flowers"></div>
-    <h1>Simone &amp; Thomas</h1>
+    <h1>Simone
+&amp;
+Thomas</h1>
   </div>
 
 
   <div class="wrapper">
 
     <div class="main-wrapper">
-        {{ content }}
+      {{ content }}
     </div>
   </div>
-
+  <!-- <div id="outro">
+    <div id="lower-flowers"></div>
+  </div> -->
   {% include footer.html %}
 
-{% include scripts.html %}
+  {% include scripts.html %}
 </body>
 
 </html>
-

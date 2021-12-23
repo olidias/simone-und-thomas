@@ -4,7 +4,7 @@ body {
     color: $text-color-secondary;
     background: $smoky-white;
     font-size: 16px;
-    padding: 10px 30px;
+    padding: 0 30px 10px 30px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -33,22 +33,32 @@ body {
     background-repeat: no-repeat;
 }
 
+#lower-flowers {
+    margin-top: 0;
+    min-height: 175px;
+    min-width: 300px;
+    background-image: url('../images/lower-flowers.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 #intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: alexBrush;
-    height: 240px;
-    margin-top: 0;
-    margin-bottom: 4em;
+    height: 180px;
+    margin-bottom: 11em;
 
     h1 { 
         color: #3C363C;
         position: absolute;
-        margin-top: 3.9em;
+        margin-top: 4.5em;
         font-size: 4.2em;
         margin-left: -0.1em;
+        white-space: pre;
+        text-align: center;
     }
 }
 
@@ -75,7 +85,7 @@ p {
 
 .main-wrapper {
 
-    h2{
+    h2 {
         font-family: AlegreyaSansSC-Light;
     }
 
@@ -130,6 +140,14 @@ p {
 
     #dresscode {
         background-image: url('../images/dress-code.png');
+    }
+    
+    #dresscode-para {
+        font-weight: 300;
+    }
+
+    #rsvp {
+        background-image: url('../images/rsvp.png');
     }
 }
 

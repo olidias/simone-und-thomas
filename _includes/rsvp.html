@@ -1,0 +1,19 @@
+{% assign rsvp = site.data.data.rsvp %}
+{% if rsvp %}
+<section class="section summary-section">
+    <div class="section-left ">
+        <h2 class="section-title">
+            {{ rsvp.title }}
+        </h2>
+
+        <div class="summary">
+            {{ rsvp.paragraph | markdownify }}
+        </div>
+    </div>
+    <div class="section-right sideimage" id="rsvp">
+
+        <!--//summary-->
+    </div>
+</section>
+<!--//section-->
+{% endif %}

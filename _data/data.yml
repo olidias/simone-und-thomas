@@ -10,7 +10,7 @@ wir-heiraten:
 the-date:
     title: The Date
     paragraph: >
-      25.06.2022 ab 10:30 Uhr
+      25.06.2022 ab 09:30 Uhr
 
 the-location:
     title: The Location
@@ -34,4 +34,11 @@ gifts:
 dresscode:
     title: Dresscode
     paragraph: >
-      Festlich locker
+      Festlich locker.
+    small: >
+      Für Bluejeans stellen wir gerne Ersatzkleider zur Verfügung :)
+
+rsvp:
+    title: Anmeldung
+    paragraph: >
+      Wir freuen uns, Eure An- oder Abmeldung bis am 31.3.22 zu erhalten. Dazu schreibt Ihr am besten Simone oder Thomas direkt per WhatsApp oder Mail.
