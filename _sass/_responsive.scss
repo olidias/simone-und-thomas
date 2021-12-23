@@ -45,6 +45,10 @@
         #gifts {
             background-position-x: 79%;
         }
+
+        .carousel {
+            animation-name: carousel-responsive;
+        }
     }
 }
 
@@ -68,4 +72,21 @@
 /* Ex-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
 
+}
+
+
+
+@keyframes carousel-responsive {
+    0%, 15% {
+        transform: translateY(0);
+    }
+    30%, 45% {
+        transform: translateY(-214px)
+    }
+    60%, 75% {
+        transform: translateY(-428px)
+    }
+    90%, 100% {
+        transform: translateY(-642px)
+    }
 }

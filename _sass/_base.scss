@@ -119,7 +119,27 @@ p {
     }
     
     #wir-heiraten {
-        background-image: url('../images/wir-heiraten.JPG');
+        width: 100%;
+        height: 100%;
+        flex: 0 0 25em;
+        background-size: cover;
+        background-image: url('../images/carousel/wir-heiraten.JPG');
+    }
+
+    #captain {
+        width: 100%;
+        background-size: cover;
+        background-position: 0 10%;
+        height: 100%;
+        background-image: url('../images/carousel/captain.JPG');
+    }
+
+    #mountains {
+        width: 100%;
+        background-size: cover;
+        background-position: 0 62%;
+        height: 100%;
+        background-image: url('../images/carousel/mountains.JPG');
     }
     
     #date {
@@ -149,6 +169,17 @@ p {
     #rsvp {
         background-image: url('../images/rsvp.png');
     }
+
+
+    #frame {
+        overflow: hidden;
+    }
+
+    .carousel {
+        width: 100%;
+        height: 100%;
+        animation: carousel 12s ease-in-out infinite;
+    }
 }
 
 .footer {
@@ -163,4 +194,19 @@ p {
         color: $heart;
     }
 
+}
+
+@keyframes carousel {
+    0%, 15% {
+        transform: translateY(0);
+    }
+    30%, 45% {
+        transform: translateY(-280px)
+    }
+    60%, 75% {
+        transform: translateY(-560px)
+    }
+    90%, 100% {
+        transform: translateY(-840px)
+    }
 }
