@@ -11,24 +11,24 @@ body {
 
 @font-face {
     font-family: alexBrush;
-    src: url('../fonts/AlexBrush-Regular.ttf');
+    src: url("../fonts/AlexBrush-Regular.ttf");
 }
 
 @font-face {
     font-family: AlegreyaSansSC-Medium;
-    src: url('../fonts/AlegreyaSansSC-Medium.ttf');
+    src: url("../fonts/AlegreyaSansSC-Medium.ttf");
 }
 
 @font-face {
     font-family: AlegreyaSansSC-Light;
-    src: url('../fonts/AlegreyaSansSC-Light.ttf');
+    src: url("../fonts/AlegreyaSansSC-Light.ttf");
 }
 
 #upper-flowers {
     margin-top: 0;
     min-height: 175px;
     min-width: 300px;
-    background-image: url('../images/upper-flowers.png');
+    background-image: url("../images/upper-flowers.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -37,7 +37,7 @@ body {
     margin-top: 0;
     min-height: 175px;
     min-width: 300px;
-    background-image: url('../images/lower-flowers.png');
+    background-image: url("../images/lower-flowers.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -51,8 +51,8 @@ body {
     height: 180px;
     margin-bottom: 11em;
 
-    h1 { 
-        color: #3C363C;
+    h1 {
+        color: #3c363c;
         position: absolute;
         margin-top: 4.5em;
         font-size: 4.2em;
@@ -84,7 +84,6 @@ p {
 }
 
 .main-wrapper {
-
     h2 {
         font-family: AlegreyaSansSC-Light;
     }
@@ -92,7 +91,7 @@ p {
     section {
         display: flex;
         flex-direction: row;
-        @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
+        @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
         border-radius: 5px;
         background: #fff;
         margin-bottom: 60px;
@@ -106,7 +105,8 @@ p {
         margin-top: 0;
         margin-bottom: 20px;
     }
-    .section-left, .section-right{
+    .section-left,
+    .section-right {
         margin: 60px;
         flex-direction: column;
         width: 50%;
@@ -117,13 +117,13 @@ p {
         background-size: cover;
         background-repeat: no-repeat;
     }
-    
+
     #wir-heiraten {
         width: 100%;
         height: 100%;
         flex: 0 0 25em;
         background-size: cover;
-        background-image: url('../images/carousel/wir-heiraten.JPG');
+        background-image: url("../images/carousel/wir-heiraten.JPG");
     }
 
     #captain {
@@ -131,7 +131,7 @@ p {
         background-size: cover;
         background-position: 0 10%;
         height: 100%;
-        background-image: url('../images/carousel/captain.JPG');
+        background-image: url("../images/carousel/captain.JPG");
     }
 
     #mountains {
@@ -139,40 +139,43 @@ p {
         background-size: cover;
         background-position: 0 62%;
         height: 100%;
-        background-image: url('../images/carousel/mountains.JPG');
+        background-image: url("../images/carousel/mountains.JPG");
     }
-    
+
     #date {
-        background-image: url('../images/eberg2.png');
+        background-image: url("../images/eberg2.png");
     }
 
     #timeline {
-        background-image: url('../images/pocket-watch.png');
+        background-image: url("../images/pocket-watch.png");
     }
 
     #location {
-        background-image: url('../images/eberg.png');
+        background-image: url("../images/eberg.png");
     }
 
     #gift {
-        background-image: url('../images/route-66.png');
+        background-image: url("../images/route-66.png");
     }
 
     #dresscode {
-        background-image: url('../images/dress-code.png');
+        background-image: url("../images/dress-code.png");
     }
-    
+
     #dresscode-para {
         font-weight: 300;
     }
 
     #rsvp {
-        background-image: url('../images/rsvp.png');
+        background-image: url("../images/rsvp.png");
     }
-
 
     #frame {
         overflow: hidden;
+    }
+
+    #address {
+        margin-bottom: 1.5em;
     }
 
     .carousel {
@@ -180,6 +183,21 @@ p {
         height: 100%;
         animation: carousel 12s ease-in-out infinite;
     }
+
+    .button {
+        background-color: #A3918F;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 3px;
+    }
+}
+
+.photo-ref {
+    margin-top: 6em;
+    font-size: 0.75em;
 }
 
 .footer {
@@ -193,20 +211,23 @@ p {
     .fa-heart {
         color: $heart;
     }
-
 }
 
 @keyframes carousel {
-    0%, 15% {
+    0%,
+    15% {
         transform: translateY(0);
     }
-    30%, 45% {
-        transform: translateY(-280px)
+    30%,
+    45% {
+        transform: translateY(-280px);
     }
-    60%, 75% {
-        transform: translateY(-560px)
+    60%,
+    75% {
+        transform: translateY(-560px);
     }
-    90%, 100% {
-        transform: translateY(-840px)
+    90%,
+    100% {
+        transform: translateY(-840px);
     }
 }
