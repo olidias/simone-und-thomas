@@ -3,14 +3,15 @@
 #
 
 wir-heiraten:
-    title: Wir heiraten!
+    title: Ein Traum - Zwei Herzen - Eine grosse Liebe
     paragraph: >
-      Hier kommt eine kleine Einleitung mit einem schönen Bild :)
+      Gemeinsam auf den Weg in die Zukunft. <br /><br />
+      Wir laden Euch ganz herzlich ein, mit uns unsere Hochzeit zu feiern!
 
 the-date:
     title: The Date
     paragraph: >
-      25.06.2022 ab 09:30 Uhr
+      25.&nbsp;Juni 2022 ab 09:30 Uhr
 
 the-location:
     title: The Location
@@ -23,22 +24,20 @@ the-location:
 
 timeline:
     title: The Timeline
-    times: ["09.30 Uhr: Ankunft der Gäste &amp; Begrüssung", "10.30 Uhr: Grosser Brunch", "13.30 Uhr: Zeremonie", "15.00 Uhr: Dessert", "17.00 Uhr: Verabschiedung Ehepaar"]
+    times: ["09.30 Uhr: Ankunft der Gäste &amp; Begrüssung", "10.30 Uhr: Grosser Brunch & Darbietungen", "13.30 Uhr: kleine Zeremonie im Pavillon", "15.00 Uhr: Dessert mit Torte", "17.00 Uhr: Verabschiedung Ehepaar"]
 
 gifts:
     title: Gifts
     subtitle: Unsere Hochzeitsreise
     paragraph: >
-      Mit Euch diesen Tag verbringen zu dürfen ist ein riesiges Geschenk für uns. Wer uns dennoch gerne etwas schenken möchte, darf sich gerne mit einem Zustupf an unserem grossen Traum einer Reise über die Route 66 in Amerika beteiligen.
+      Das grösste Geschenk für uns ist, mit Euch diesen Tag verbringen zu dürfen. <br /> Wer uns dennoch gerne etwas schenken möchte, darf sich gerne mit einem Zustupf an unserem grossen Traum einer Reise über die Route 66 in Amerika beteiligen.
 
 dresscode:
     title: Dresscode
     paragraph: >
-      Festlich locker.
-    small: >
-      Für Bluejeans stellen wir gerne Ersatzkleider zur Verfügung :)
+      Festlich & chic.
 
 rsvp:
     title: Anmeldung
     paragraph: >
-      Wir freuen uns, Eure An- oder Abmeldung bis am 31.3.22 zu erhalten. Dazu schreibt Ihr am besten Simone oder Thomas direkt per WhatsApp oder Mail.
+      Wir freuen uns, Eure An- oder Abmeldung bis am <b>1.&nbsp;Mai 2022</b> zu erhalten. Dazu schreibt Ihr am besten Simone oder Thomas direkt per WhatsApp oder Mail.
